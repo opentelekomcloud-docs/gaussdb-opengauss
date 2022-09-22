@@ -80,8 +80,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "GaussDB Enterprise-grade Relational Database on the openGauss ecosystem
- - User Guide"
+html_title = "GaussDB Enterprise-grade Relational Database on the openGauss ecosystem - User Guide"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
