@@ -92,7 +92,6 @@ html_static_path = ['_static']
 latex_documents = [
 ('index',
      'opengauss-umn.tex',
-     u'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem
- - User Guide',
+     u'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
