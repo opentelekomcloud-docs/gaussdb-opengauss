@@ -24,8 +24,7 @@ extensions = [
 otcdocs_auto_name = False
 otcdocs_auto_version = False
 
-project = 'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem
-'
+project = 'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem'
 otcdocs_repo_name = 'opentelekomcloud-docs/gaussdb-opengauss'
 # Those variables are required for edit/bug links
 
