@@ -93,7 +93,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'opengauss-umn.tex',
      u'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem - User Guide',
      u'OpenTelekomCloud', 'manual'),
