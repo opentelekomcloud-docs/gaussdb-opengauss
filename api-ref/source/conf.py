@@ -24,7 +24,7 @@ extensions = [
 otcdocs_auto_name = False
 otcdocs_auto_version = False
 
-project = 'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem'
+project = 'GaussDB (openGauss)'
 otcdocs_repo_name = 'opentelekomcloud-docs/gaussdb-opengauss'
 # Those variables are required for edit/bug links
 
@@ -81,7 +81,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "GaussDB Enterprise-grade Relational Database on the openGauss ecosystem - API Reference"
+html_title = "GaussDB (openGauss) - API Reference"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -93,6 +93,6 @@ html_static_path = ['_static']
 latex_documents = [
     ('index',
      'opengauss-api-ref.tex',
-     u'GaussDB Enterprise-grade Relational Database on the openGauss ecosystem - API Reference',
+     u'GaussDB (openGauss) - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
