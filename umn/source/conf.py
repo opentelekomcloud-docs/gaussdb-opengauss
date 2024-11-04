@@ -16,6 +16,8 @@
 
 import os
 import sys
+from git import Repo
+from datetime import datetime
 
 extensions = [
     'otcdocstheme',
@@ -27,6 +29,17 @@ otcdocs_auto_version = False
 project = 'GaussDB (openGauss)'
 otcdocs_repo_name = 'opentelekomcloud-docs/gaussdb-opengauss'
 # Those variables are required for edit/bug links
+
+# Those variables are needed for indexing into OpenSearch
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/gaussdb-opengauss/umn/'
+otcdocs_doc_title = 'User Guide'
+otcdocs_doc_type = 'umn'
+otcdocs_service_category = 'database'
+otcdocs_service_title = 'GaussDB (openGauss)'
+otcdocs_service_type = 'opengauss'
+otcdocs_search_environment = 'hc_de'
+otcdocs_search_url = "https://opensearch.eco.tsi-dev.otc-service.com/"
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -99,3 +112,9 @@ latex_documents = [
      u'GaussDB (openGauss) - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
+
+# Get the Git commit values for last updated timestamp on each page
+repo = Repo(search_parent_directories=True)
+commit = repo.head.commit
+current_commit_hash = commit.hexsha
+current_commit_time = commit.committed_datetime.strftime('%Y-%m-%d %H:%M')
