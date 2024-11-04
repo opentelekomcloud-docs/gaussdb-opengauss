@@ -5,4 +5,4 @@
 API Calling
 ===========
 
-GaussDB(openGauss) supports Representational State Transfer (REST) APIs, allowing you to call APIs using HTTPS. For details about API calling, see :ref:`API Overview <opengauss_api_0007>`.
+GaussDB supports Representational State Transfer (REST) APIs, allowing you to call APIs using HTTPS. For details about API calling, see :ref:`API Overview <opengauss_api_0007>`.

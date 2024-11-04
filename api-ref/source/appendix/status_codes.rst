@@ -5,9 +5,9 @@
 Status Codes
 ============
 
-:ref:`Table 1 <opengauss_api_0032__td86566b8f6964fd98d9ee15aa0cce824>` describes status codes.
+:ref:`Table 1 <en-us_topic_0000001917130452__en-us_topic_0110967240_table6516105501617>` describes status codes.
 
-.. _opengauss_api_0032__td86566b8f6964fd98d9ee15aa0cce824:
+.. _en-us_topic_0000001917130452__en-us_topic_0110967240_table6516105501617:
 
 .. table:: **Table 1** Status codes
 
