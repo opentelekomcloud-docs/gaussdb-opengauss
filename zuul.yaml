@@ -4,6 +4,10 @@
     default-branch: main
     templates:
       - helpcenter-base-jobs
+    vars:
+      sphinx_pdf_files:
+        - opengauss-api-ref.pdf
+        - opengauss-umn.pdf
     check:
       jobs:
         - noop

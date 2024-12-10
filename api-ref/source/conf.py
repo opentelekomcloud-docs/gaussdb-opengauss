@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'opengauss-api-ref.tex',
-     u'GaussDB (openGauss) - API Reference',
+    u'GaussDB (openGauss) - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 

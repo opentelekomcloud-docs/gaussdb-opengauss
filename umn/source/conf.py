@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'opengauss-umn.tex',
-     u'GaussDB (openGauss) - User Guide',
+    u'GaussDB (openGauss) - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
