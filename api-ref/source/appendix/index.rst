@@ -10,7 +10,7 @@ Appendix
 -  :ref:`Error Codes <opengauss_api_0033>`
 -  :ref:`Obtaining a Project ID <opengauss_api_0034>`
 -  :ref:`Replication Mode Table <opengauss_api_0036>`
--  :ref:`DB Instance Class <opengauss_api_0037>`
+-  :ref:`DB Instance Specifications <opengauss_api_0037>`
 
 .. toctree::
    :maxdepth: 1
@@ -21,4 +21,4 @@ Appendix
    error_codes
    obtaining_a_project_id
    replication_mode_table
-   db_instance_class
+   db_instance_specifications
