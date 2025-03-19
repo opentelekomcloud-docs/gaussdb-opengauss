@@ -12,6 +12,7 @@ APIs (Recommended)
 -  :ref:`Querying Database Disk Type <opengauss_newapi_0028>`
 -  :ref:`Task Management <opengauss_newapi_0034>`
 -  :ref:`Recycle Bin <opengauss_newapi_0036>`
+-  :ref:`API Version Query <opengauss_query_api_version>`
 
 .. toctree::
    :maxdepth: 1
@@ -24,3 +25,4 @@ APIs (Recommended)
    querying_database_disk_type
    task_management/index
    recycle_bin/index
+   api_version_query/index
