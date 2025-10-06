@@ -16,8 +16,8 @@ Precautions
 -----------
 
 -  Only instances of version 2.1 or later can be restored to any point in time.
--  If nodes are being added, versions are being upgraded, or data is being restored to an existing instance, the instance cannot be restored a specific point in time.
--  If a DB instance is faulty or a CN is removed, archive logs cannot be generated and the instance cannot be restored to a specific point in time.
+-  Data from the time period of the following operations cannot be restored: nodes are being added to an instance, the instance version is being upgraded, or the instance data is being restored.
+-  If a DB instance is faulty or a CN is removed, archive logs cannot be generated, and data from the affected time period cannot be restored.
 -  If you restore backup data to a new DB instance:
 
    -  The DB engine and major version are the same as those of the original DB instance and cannot be changed.

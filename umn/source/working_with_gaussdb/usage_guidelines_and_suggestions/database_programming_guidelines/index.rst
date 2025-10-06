@@ -12,7 +12,7 @@ Database Programming Guidelines
 -  :ref:`INSERT <opengauss_tips_0019>`
 -  :ref:`UPDATE <opengauss_tips_0020>`
 -  :ref:`DELETE <opengauss_tips_0021>`
--  :ref:`Associated Query <opengauss_tips_0022>`
+-  :ref:`Join Query <opengauss_tips_0022>`
 -  :ref:`Subqueries <opengauss_tips_0023>`
 -  :ref:`Transactions <opengauss_tips_0024>`
 
@@ -27,6 +27,6 @@ Database Programming Guidelines
    insert
    update
    delete
-   associated_query
+   join_query
    subqueries
    transactions

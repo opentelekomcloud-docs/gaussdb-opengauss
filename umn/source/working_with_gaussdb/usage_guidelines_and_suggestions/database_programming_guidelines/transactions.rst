@@ -31,7 +31,7 @@ Transactions
 
    .. note::
 
-      Large object operations include creating and deleting DATABASE, ANAYLIZE, and VACCUM jobs.
+      Large object operations include creating and deleting DATABASE, ANAYLIZE, and VACUUM jobs.
 
 -  Do not combine multiple SQL statements into one statement when accessing the database through JDBC
 
