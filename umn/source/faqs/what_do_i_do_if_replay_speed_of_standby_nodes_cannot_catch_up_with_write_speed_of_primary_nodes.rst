@@ -8,7 +8,7 @@ What Do I Do If Replay Speed of Standby Nodes Cannot Catch Up with Write Speed o
 Symptom
 -------
 
-When workloads on a DB instance are heavy, the playback speed of standby nodes cannot catch up with write speed of primary nodes. After the system runs for a long time, logs are accumulated on the standby nodes. If a primary node is faulty, data restoration takes a long time and the database is unavailable, severely affecting system availability.
+When workloads on a DB instance are heavy, the replay speed of standby nodes cannot catch up with write speed of primary nodes. After the system runs for a long time, logs are accumulated on the standby nodes. If a primary node is faulty, data restoration takes a long time and the database is unavailable, severely affecting system availability.
 
 Solution
 --------
