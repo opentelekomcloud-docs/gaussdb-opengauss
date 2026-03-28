@@ -160,7 +160,7 @@ The execution plan is as follows.
 Functions That Do Not Support Pushdown
 --------------------------------------
 
-The following describes the volatility of functions. The function variability in GaussDB is as follows:
+The following describes the volatility of functions. The function volatility in GaussDB is as follows:
 
 -  **IMMUTABLE**
 

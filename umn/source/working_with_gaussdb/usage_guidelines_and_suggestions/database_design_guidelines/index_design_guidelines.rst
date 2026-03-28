@@ -39,6 +39,6 @@ Index Design Guidelines
 
 -  The efficiency of maintaining indexes created for the same column is different. Columns of the number type are better than those of the character type and other data types. Therefore, it is recommended that columns such as IDs and time for creating indexes be stored as data of the number type.
 
--  You are advised to create an index on the associated column.
+-  You are advised to create an index on the join column.
 
    HASH JOIN is supported, whereas NESTLOOP JOIN may be used for join operations if the rescan cost is low (for example, the internal table is small). If the NESTLOOP JOIN plan can be viewed by executing EXPLAIN, you can create indexes on joined columns to improve the efficiency of NESTLOOP JOIN.

@@ -19,6 +19,6 @@ DELETE
 
 -  Use TRUNCATE instead of DELETE to clear a table.
 
-   TRUNCATE creates a new physical file and physically deletes the original file when the transaction ends to clear the disk space. However, the DELETE statement marks data in the table and does not clear the disk space until the VACCUUM FULL phase.
+   TRUNCATE creates a new physical file and physically deletes the original file when the transaction ends to clear the disk space. However, the DELETE statement marks data in the table and does not clear the disk space until the VACUUM FULL phase.
 
 -  If a DELETE statement is executed on a table that has a primary key or index, the WHERE condition must be used together with the primary key or index to improve execution efficiency.
