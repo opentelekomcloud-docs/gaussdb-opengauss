@@ -73,4 +73,4 @@ SELECT
 
          **ANALYZE** tablename;
 
-      -  This event is triggered when the number of rows added or deleted at a specified interval or in a table reaches a specified value by using AUTO VACCUUM. The interval and addition/deletion ratio can be configured through the GUC parameters.
+      -  This event is triggered when the number of rows added or deleted at a specified interval or in a table reaches a specified value by using AUTO VACUUM. The interval and addition/deletion ratio can be configured through the GUC parameters.

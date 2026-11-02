@@ -13,7 +13,7 @@ The smallest management unit in GaussDB is the instance. A DB instance is an iso
 Instance Versions
 -----------------
 
-Currently, GaussDB 8.103, 3.223, 3.222, 3.208, 3.103, 2.7, 2.3, 1.4, and 1.0 are supported.
+Currently, GaussDB V2.0-8.102, V2.0-3.223, V2.0-3.222, and V2.0-3.208 are supported.
 
 Instance Types
 --------------

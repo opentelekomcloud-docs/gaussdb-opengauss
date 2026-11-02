@@ -391,7 +391,7 @@ More Optimization Examples
 
 In this example, a correlated subquery is contained. To improve the query performance, you can change **sub_table** to a replication table and create an index on the **a** column.
 
-**Example 2:** Modify the SELECT statement by changing the subquery to a JOIN relationship between the primary table and the parent query or modifying the subquery to improve the query performance. Ensure that the subquery to be used is semantically correct.
+**Example 2:** Modify the SELECT statement by changing the subquery to a JOIN relationship between the main table and the parent query or modifying the subquery to improve the query performance. Ensure that the subquery to be used is semantically correct.
 
 .. code-block::
 
